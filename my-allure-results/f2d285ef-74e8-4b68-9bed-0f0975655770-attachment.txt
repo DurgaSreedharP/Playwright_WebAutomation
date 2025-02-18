@@ -1,0 +1,17 @@
+Error creating connection pool: ConnectionError: Failed to connect to SYD-UAT-GDBL.PP-GOL.LOCAL:1433 - getaddrinfo ENOTFOUND syd-uat-gdbl.pp-gol.local
+    at connectListener (C:\Users\swarna.boddu\Documents\Grays.AutomationTests.Website\node_modules\mssql\lib\tedious\connection-pool.js:85:17)
+    at Connection.onConnect (C:\Users\swarna.boddu\Documents\Grays.AutomationTests.Website\node_modules\mssql\node_modules\tedious\src\connection.ts:1759:9)
+    at Object.onceWrapper (node:events:635:26)
+    at Connection.emit (node:events:520:28)
+    at Connection.emit (C:\Users\swarna.boddu\Documents\Grays.AutomationTests.Website\node_modules\mssql\node_modules\tedious\src\connection.ts:1902:18)
+    at Connection.socketError (C:\Users\swarna.boddu\Documents\Grays.AutomationTests.Website\node_modules\mssql\node_modules\tedious\src\connection.ts:2309:12)
+    at C:\Users\swarna.boddu\Documents\Grays.AutomationTests.Website\node_modules\mssql\node_modules\tedious\src\connection.ts:2098:37
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  code: 'ESOCKET',
+  originalError: ConnectionError: Failed to connect to SYD-UAT-GDBL.PP-GOL.LOCAL:1433 - getaddrinfo ENOTFOUND syd-uat-gdbl.pp-gol.local
+      at Connection.socketError (C:\Users\swarna.boddu\Documents\Grays.AutomationTests.Website\node_modules\mssql\node_modules\tedious\src\connection.ts:2309:28)
+      at C:\Users\swarna.boddu\Documents\Grays.AutomationTests.Website\node_modules\mssql\node_modules\tedious\src\connection.ts:2098:37
+      at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+    code: 'ESOCKET'
+  }
+}
